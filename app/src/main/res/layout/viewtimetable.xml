@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+    <Button
+        android:id="@+id/viewMon_butt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="View Monday"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/viewAttend_butt"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/viewAttend_butt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="View Attendence"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/viewWed_butt" />
+
+    <Button
+        android:id="@+id/viewTue_butt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="View Tuesday"
+        android:layout_below="@+id/viewMon_butt"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/viewWed_butt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="View Wednesday"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/viewTue_butt"
+        android:layout_alignStart="@+id/viewThur_butt" />
+
+    <Button
+        android:id="@+id/viewThur_butt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="View Thursday"
+        android:layout_below="@+id/viewWed_butt"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/viewFri_butt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="View Friday"
+        android:layout_below="@+id/viewThur_butt"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/viewSat_butt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="View Saturday"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/viewFri_butt"
+        android:layout_alignEnd="@+id/viewThur_butt" />
+
+    <Button
+        android:id="@+id/viewSun_butt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="View Sunday"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/viewSat_butt"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

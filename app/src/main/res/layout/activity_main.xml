@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.user.attendance_tension.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/bg1">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="238dp"
+        android:layout_height="30dp"
+        android:layout_margin="40dp"
+        android:layout_weight="0.10"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/enter_string"
+        android:layout_weight="0.13" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:text="Show" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+
+</LinearLayout>

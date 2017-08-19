@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Attendance_tension</string>
+    <string name="enter_string">Enter Subject</string>
+
+    <string-array name="week_days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>40</item>
+        <item>37</item>
+        <item>35</item>
+        <item>33</item>
+        <item>47</item>
+        <item>45</item>
+        <item>43</item>
+    </string-array>
+</resources>
